@@ -10,12 +10,12 @@ function clickfunc() {
         console.log("dorost ast");
         modal.style.display = "flex";
         modal.style.backgroundColor = "green";
-        modal.innerHTML = "اطلاعات وارد شده صحیح است";
+        modal.innerHTML = "your information is correct";
     } else {
         console.log("etelaat eshtebah ast");
         modal.style.display = "flex";
         modal.style.backgroundColor = "red";
-        modal.innerHTML = "اطلاعات وارد شده صحیح نیست";
+        modal.innerHTML = "wrong information";
     }
     setTimeout(function () {
         modal.style.display = "none";
